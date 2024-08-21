@@ -1,5 +1,5 @@
 name: Custom
-on: [push]
+on: [push,pull]
 jobs:
   main:
     runs-on: ubuntu-latest
